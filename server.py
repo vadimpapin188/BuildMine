@@ -1,15 +1,16 @@
 from ursinanetworking import *
+#--Welcome to server.py editor!--
 
-# Создаем сервер на порту 25565 (как в Майне!)
+#Created server on port 25565
 server = UrsinaNetworkingServer("localhost", 25565)
-
+#Events of server in console
 @server.event
 def onClientConnected(client):
-    print(f"Игрок {client.id} подключился к BuildMine!")
+    print(f"Player {client.id} join a BuildMine!") #If goin - print of client id join in your server.
 
 @server.event
 def onClientDisconnected(client):
-    print(f"Игрок {client.id} покинул мир.")
+    print(f"Player {client.id} left the game.") #if left - print of client id left your server.
 
 while True:
-    server.process_net_events()
+    server.process_net_events() #Loop for Events
