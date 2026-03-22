@@ -1,7 +1,7 @@
 # I dont have energy and i dont want write README. 
 For developers:
 Used libaries **Ursina, json, math.**
-*(setup.exe in Releases)*
+*(setup.exe work of progress)*
 **If you want created server on BuildMine, running file server.py or server.exe** *for started server.* **IP your server = IPv4 your PC.** 
 # WARING!
 Servers on BuildMine used only in small group or your friends, so big count of player can crashed your PC!
